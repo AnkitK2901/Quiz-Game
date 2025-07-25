@@ -1,0 +1,252 @@
+[
+  {
+    "prompt": "What planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which is the longest river in the world?",
+    "options": ["Amazon", "Yangtze", "Mississippi", "Nile"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "prompt": "Who invented the World Wide Web?",
+    "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which is the smallest continent by land area?",
+    "options": ["Europe", "Australia", "Antarctica", "South America"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which programming language is used for Android app development?",
+    "options": ["Swift", "Kotlin", "Python", "Ruby"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "How many bones are there in the adult human body?",
+    "options": ["206", "208", "210", "200"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "Which country has the most number of time zones?",
+    "options": ["USA", "Russia", "France", "China"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What is the main function of the CPU?",
+    "options": ["Storage", "Execution of instructions", "Display", "Networking"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which vitamin is produced when skin is exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B12"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which data structure uses FIFO method?",
+    "options": ["Stack", "Queue", "Array", "Tree"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which organ purifies our blood?",
+    "options": ["Heart", "Lungs", "Kidney", "Liver"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Machine Language", "HyperTool Multi Language", "Hyperlink Text Machine Language"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "What is the boiling point of water at sea level?",
+    "options": ["90°C", "100°C", "110°C", "80°C"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which country is called the Land of the Rising Sun?",
+    "options": ["India", "China", "South Korea", "Japan"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "prompt": "Which of the following is not an operating system?",
+    "options": ["Linux", "Windows", "Oracle", "macOS"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which part of the plant conducts photosynthesis?",
+    "options": ["Root", "Stem", "Leaf", "Flower"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which desert is the largest in the world?",
+    "options": ["Sahara", "Gobi", "Antarctic", "Kalahari"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which company developed the Java programming language?",
+    "options": ["Microsoft", "Sun Microsystems", "Apple", "Google"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which blood cells help in clotting?",
+    "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which is the tallest mountain in the world?",
+    "options": ["Mount Everest", "K2", "Kanchenjunga", "Lhotse"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "Which is a web browser?",
+    "options": ["Excel", "Firefox", "Word", "Photoshop"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which planet has the most moons?",
+    "options": ["Mars", "Jupiter", "Saturn", "Uranus"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What is the largest internal organ of the human body?",
+    "options": ["Heart", "Liver", "Lungs", "Kidneys"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which country has the most volcanoes?",
+    "options": ["Japan", "Indonesia", "USA", "Philippines"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which unit is used to measure electric current?",
+    "options": ["Volt", "Watt", "Ohm", "Ampere"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "prompt": "Which layer of Earth is made of molten rock?",
+    "options": ["Crust", "Mantle", "Core", "Lithosphere"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which of the following is a programming paradigm?",
+    "options": ["Functional", "Circular", "Logical", "Physical"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "Which disease is caused by a deficiency of insulin?",
+    "options": ["Asthma", "Diabetes", "Malaria", "Cancer"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "prompt": "Which computer memory is volatile?",
+    "options": ["ROM", "Flash", "RAM", "Hard Disk"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which mineral is essential for strong bones?",
+    "options": ["Iron", "Zinc", "Calcium", "Potassium"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which is the coldest place on Earth?",
+    "options": ["Siberia", "Alaska", "Vostok Station", "Greenland"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which protocol is used to send email?",
+    "options": ["HTTP", "FTP", "SMTP", "POP"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which gas is essential for respiration?",
+    "options": ["Nitrogen", "Carbon Dioxide", "Oxygen", "Hydrogen"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which country is known for tulips and windmills?",
+    "options": ["France", "Germany", "Netherlands", "Sweden"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which is the most abundant gas in Earth’s atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which computer port is used to connect printers?",
+    "options": ["HDMI", "Parallel", "USB", "Ethernet"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which planet is closest to the sun?",
+    "options": ["Venus", "Mars", "Mercury", "Earth"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which is the main source of energy for the Earth?",
+    "options": ["Moon", "Sun", "Stars", "Wind"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which scientist gave the laws of motion?",
+    "options": ["Einstein", "Newton", "Tesla", "Galileo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which country gifted the Statue of Liberty to the USA?",
+    "options": ["France", "UK", "Germany", "Spain"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "Which component is the brain of a computer?",
+    "options": ["RAM", "Motherboard", "CPU", "Hard Drive"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which instrument is used to measure temperature?",
+    "options": ["Barometer", "Thermometer", "Altimeter", "Hygrometer"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "prompt": "Which river passes through Paris?",
+    "options": ["Seine", "Thames", "Danube", "Rhine"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "prompt": "Which unit is used to measure sound intensity?",
+    "options": ["Watt", "Hertz", "Decibel", "Volt"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What is the chemical symbol for gold?",
+    "options": ["Gd", "Go", "Au", "Ag"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Diamond", "Platinum"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "prompt": "Which artist painted the Mona Lisa?",
+    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "correctAnswerIndex": 2
+  }
+]
