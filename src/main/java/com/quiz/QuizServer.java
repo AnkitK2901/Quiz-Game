@@ -22,22 +22,21 @@ public class QuizServer {
         // Load questions from resources
         try (InputStream is = QuizServer.class.getResourceAsStream("/questions.json")) {
             if (is == null) {
-                System.err.println("Error: questions.json not found in resources.");
+                System.err.println("❌ Error: questions.json not found in resources.");
                 return;
             }
-         // New, compatible code
             allQuestions = Arrays.asList(new Gson().fromJson(new InputStreamReader(is), Question[].class));
         }
 
         HttpServer server = HttpServer.create(new InetSocketAddress(8081), 0);
         System.out.println("✅ Server started at http://localhost:8081/");
 
+        // Contexts
         server.createContext("/", QuizServer::serveStaticFile);
-        server.createContext("/api/questions", QuizServer::handleQuestionsRequest);
-     // In the main method
-        server.createContext("/api/questions", QuizServer::handleQuestionsRequest);
-        server.createContext("/api/info", QuizServer::handleInfoRequest); // Add this line
-        server.setExecutor(null);
+        server.createContext("/api/questions", QuizServer::handleQuestionsRequest); // ✅ Only once
+        server.createContext("/api/info", QuizServer::handleInfoRequest);
+
+        server.setExecutor(null); // default executor
         server.start();
     }
 
@@ -56,17 +55,17 @@ public class QuizServer {
             os.write(response.getBytes());
         }
     }
- // Add this new method to handle requests for quiz info
+
     private static void handleInfoRequest(HttpExchange exchange) throws IOException {
-        // Create a simple JSON string with the total count
         String response = String.format("{\"totalQuestions\": %d}", allQuestions.size());
-        
+
         exchange.getResponseHeaders().set("Content-Type", "application/json");
         exchange.sendResponseHeaders(200, response.getBytes().length);
         try (OutputStream os = exchange.getResponseBody()) {
             os.write(response.getBytes());
         }
     }
+
     private static void serveStaticFile(HttpExchange exchange) throws IOException {
         String path = exchange.getRequestURI().getPath();
         String resourcePath = path.equals("/") || path.isEmpty() ? "/static/index.html" : "/static" + path;
@@ -83,12 +82,11 @@ public class QuizServer {
 
             exchange.sendResponseHeaders(200, 0);
             try (OutputStream os = exchange.getResponseBody()) {
-            	// New, compatible code
-            	byte[] buffer = new byte[4096];
-            	int bytesRead;
-            	while ((bytesRead = is.read(buffer)) != -1) {
-            	    os.write(buffer, 0, bytesRead);
-            	}
+                byte[] buffer = new byte[4096];
+                int bytesRead;
+                while ((bytesRead = is.read(buffer)) != -1) {
+                    os.write(buffer, 0, bytesRead);
+                }
             }
         }
     }
