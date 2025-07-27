@@ -27,9 +27,9 @@ public class QuizServer {
             }
             allQuestions = Arrays.asList(new Gson().fromJson(new InputStreamReader(is), Question[].class));
         }
-
-        HttpServer server = HttpServer.create(new InetSocketAddress(8081), 0);
-        System.out.println("✅ Server started at http://localhost:8081/");
+        int port=8081;// on local host it will be 81/82..., on server in my case it will be 81
+        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+        System.out.println("✅ Server started at http://localhost:"+port+"/");
 
         // Contexts
         server.createContext("/", QuizServer::serveStaticFile);
