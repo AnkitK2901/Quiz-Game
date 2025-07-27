@@ -1,3 +1,18 @@
-.settings
+# Maven build directory
+/target/
+
+# Log files
+*.log
+
+# IDE-specific files (IntelliJ, Eclipse, etc.)
+.idea/
+*.iml
+*.iws
+.project
+.classpath
 .vscode
-target/
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
