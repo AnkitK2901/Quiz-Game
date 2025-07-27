@@ -24,10 +24,11 @@ echo "➡️  STEP 1: Committing and pushing local changes..."
 git add .
 
 # Commit with the message defined above
+# This will only create a commit if there are staged changes
 git commit -m "$COMMIT_MESSAGE"
 
 # Push to the main branch on GitHub
-git push origin main || { echo "❌ Git push failed!"; exit 1; }
+git push origin main
 
 echo "✅ Local changes pushed successfully."
 echo "----------------------------------------"
@@ -37,6 +38,13 @@ echo "🚀 STEP 2: Starting deployment to GCE server..."
 ssh $GCE_USER@$GCE_HOST "
     echo '➡️  Navigating to app directory: $APP_DIR'
     cd $APP_DIR || { echo '❌ App directory not found on server!'; exit 1; }
+
+    # --- NEW: Forcefully clean the repository on the server ---
+    echo '🧹  Resetting any local changes on the server...'
+    git reset --hard HEAD
+    
+    echo '🗑️  Cleaning untracked files and directories...'
+    git clean -fd
 
     echo '🔄  Pulling latest changes from Git...'
     git pull origin main || { echo '❌ Git pull failed on server!'; exit 1; }
