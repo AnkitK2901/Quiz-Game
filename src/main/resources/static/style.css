@@ -97,11 +97,11 @@ body::after {
     top: 20px;
     left: 20px;
     z-index: 10;
-    filter: drop-shadow(0 0 5px var(--primary));
+    /* filter: drop-shadow(0 0 5px var(--primary)); */
 }
 
 .logo {
-    height: 60px;
+    height: 150px;
     transition: var(--transition);
 }
 
